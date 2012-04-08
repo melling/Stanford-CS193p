@@ -16,16 +16,22 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="Eqt-2G-V1W" customClass="FaceView">
-                                <rect key="frame" x="1" y="1" width="768" height="1004"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <rect key="frame" x="1" y="35" width="768" height="970"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="EOg-d1-ySx">
+                                <rect key="frame" x="1" y="-9" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items/>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
                     <connections>
                         <outlet property="faceView" destination="Eqt-2G-V1W" id="12j-Zy-GMx"/>
+                        <outlet property="toolbar" destination="EOg-d1-ySx" id="AzM-VL-JJN"/>
                     </connections>
                 </viewController>
             </objects>
@@ -251,6 +257,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/HappinessViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="faceView" candidateClass="FaceView"/>
+                <relationship kind="outlet" name="toolbar" candidateClass="UIToolbar"/>
             </relationships>
         </class>
         <class className="PsychologistViewController" superclassName="UIViewController">
