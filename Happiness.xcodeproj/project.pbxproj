@@ -15,6 +15,7 @@
 		3E7889BF1530F8A500E9E105 /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7889BE1530F8A500E9E105 /* HappinessAppDelegate.m */; };
 		3E7889C21530F8A500E9E105 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7889C01530F8A500E9E105 /* MainStoryboard.storyboard */; };
 		3E7889C51530F8A500E9E105 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7889C41530F8A500E9E105 /* HappinessViewController.m */; };
+		3E7889CD1530FB0E00E9E105 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7889CC1530FB0E00E9E105 /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		3E7889AE1530F8A500E9E105 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3E7889B01530F8A500E9E105 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3E7889B21530F8A500E9E105 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3E7889B61530F8A500E9E105 /* Happiness-Info.plist */ = {isa = PBXFileReference; path = "Happiness-Info.plist"; sourceTree = "<group>"; };
+		3E7889B61530F8A500E9E105 /* Happiness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Happiness-Info.plist"; sourceTree = "<group>"; };
 		3E7889B81530F8A500E9E105 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3E7889BA1530F8A500E9E105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E7889BC1530F8A500E9E105 /* Happiness-Prefix.pch */ = {isa = PBXFileReference; path = "Happiness-Prefix.pch"; sourceTree = "<group>"; };
-		3E7889BD1530F8A500E9E105 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
+		3E7889BC1530F8A500E9E105 /* Happiness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happiness-Prefix.pch"; sourceTree = "<group>"; };
+		3E7889BD1530F8A500E9E105 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
 		3E7889BE1530F8A500E9E105 /* HappinessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
 		3E7889C11530F8A500E9E105 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3E7889C31530F8A500E9E105 /* HappinessViewController.h */ = {isa = PBXFileReference; path = HappinessViewController.h; sourceTree = "<group>"; };
+		3E7889C31530F8A500E9E105 /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		3E7889C41530F8A500E9E105 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		3E7889CB1530FB0E00E9E105 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		3E7889CC1530FB0E00E9E105 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				3E7889C01530F8A500E9E105 /* MainStoryboard.storyboard */,
 				3E7889C31530F8A500E9E105 /* HappinessViewController.h */,
 				3E7889C41530F8A500E9E105 /* HappinessViewController.m */,
+				3E7889CB1530FB0E00E9E105 /* FaceView.h */,
+				3E7889CC1530FB0E00E9E105 /* FaceView.m */,
 				3E7889B51530F8A500E9E105 /* Supporting Files */,
 			);
 			path = Happiness;
@@ -164,6 +169,7 @@
 				3E7889BB1530F8A500E9E105 /* main.m in Sources */,
 				3E7889BF1530F8A500E9E105 /* HappinessAppDelegate.m in Sources */,
 				3E7889C51530F8A500E9E105 /* HappinessViewController.m in Sources */,
+				3E7889CD1530FB0E00E9E105 /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
