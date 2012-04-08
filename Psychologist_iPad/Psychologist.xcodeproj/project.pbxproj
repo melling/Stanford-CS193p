@@ -18,7 +18,7 @@
 		3E579CDE15313F8D002AF2A9 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CDD153139C2002AF2A9 /* HappinessViewController.m */; };
 		3E579CDF15313F93002AF2A9 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CDB153139B2002AF2A9 /* FaceView.m */; };
 		3E579CE215314AB1002AF2A9 /* RotableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CE115314AB1002AF2A9 /* RotableViewController.m */; };
-		3E71035615321D1D0055FBAD /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E71035515321D1D0055FBAD /* iPad.storyboard */; };
+		3E710359153257810055FBAD /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E710358153257810055FBAD /* iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +41,8 @@
 		3E579CDD153139C2002AF2A9 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 		3E579CE015314AB1002AF2A9 /* RotableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotableViewController.h; sourceTree = "<group>"; };
 		3E579CE115314AB1002AF2A9 /* RotableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotableViewController.m; sourceTree = "<group>"; };
-		3E71035515321D1D0055FBAD /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		3E71035715324CB90055FBAD /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
+		3E710358153257810055FBAD /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 		3E579CAE15313788002AF2A9 = {
 			isa = PBXGroup;
 			children = (
-				3E71035515321D1D0055FBAD /* iPad.storyboard */,
 				3E579CC315313788002AF2A9 /* Psychologist */,
 				3E579CBC15313788002AF2A9 /* Frameworks */,
 				3E579CBA15313788002AF2A9 /* Products */,
@@ -90,6 +89,7 @@
 		3E579CC315313788002AF2A9 /* Psychologist */ = {
 			isa = PBXGroup;
 			children = (
+				3E710358153257810055FBAD /* iPad.storyboard */,
 				3E579CCF15313788002AF2A9 /* iPhone.storyboard */,
 				3E579CCC15313788002AF2A9 /* PsychologistAppDelegate.h */,
 				3E579CCD15313788002AF2A9 /* PsychologistAppDelegate.m */,
@@ -171,7 +171,7 @@
 			files = (
 				3E579CC815313788002AF2A9 /* InfoPlist.strings in Resources */,
 				3E579CD115313788002AF2A9 /* iPhone.storyboard in Resources */,
-				3E71035615321D1D0055FBAD /* iPad.storyboard in Resources */,
+				3E710359153257810055FBAD /* iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
