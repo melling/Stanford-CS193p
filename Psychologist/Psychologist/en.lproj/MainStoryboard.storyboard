@@ -101,7 +101,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="945" y="863"/>
+            <point key="canvasLocation" x="926" y="1026"/>
         </scene>
         <!--Happiness View Controller - Diagnosis-->
         <scene sceneID="A2z-wb-Jo1">
@@ -126,7 +126,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1020" y="385"/>
+            <point key="canvasLocation" x="987" y="439"/>
         </scene>
         <!--Psychologist View Controller - Dr. Pill-->
         <scene sceneID="2nO-zK-Gen">
@@ -195,7 +195,7 @@
                     <navigationItem key="navigationItem" title="Dr. Pill" id="09e-06-2oa"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="395" y="-147"/>
+            <point key="canvasLocation" x="421" y="439"/>
         </scene>
         <!--Rotable View Controller - Psychologist-->
         <scene sceneID="CQ8-74-1pe">
@@ -242,7 +242,7 @@
                     <navigationItem key="navigationItem" title="Psychologist" id="Iua-G0-NH0"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="437" y="441"/>
+            <point key="canvasLocation" x="-21" y="787"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zT2-A1-3Lg">
@@ -285,7 +285,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="806" y="-495"/>
+            <point key="canvasLocation" x="710" y="-337"/>
         </scene>
         <!--Happiness View Controller - Diagnosis-->
         <scene sceneID="2sl-uW-q7p">
@@ -322,7 +322,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1206" y="-147"/>
+            <point key="canvasLocation" x="1161" y="-132"/>
         </scene>
     </scenes>
     <classes>
