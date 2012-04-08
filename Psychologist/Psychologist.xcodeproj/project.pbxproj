@@ -17,6 +17,7 @@
 		3E579CD415313788002AF2A9 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CD315313788002AF2A9 /* PsychologistViewController.m */; };
 		3E579CDE15313F8D002AF2A9 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CDD153139C2002AF2A9 /* HappinessViewController.m */; };
 		3E579CDF15313F93002AF2A9 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CDB153139B2002AF2A9 /* FaceView.m */; };
+		3E579CE215314AB1002AF2A9 /* RotableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E579CE115314AB1002AF2A9 /* RotableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		3E579CDB153139B2002AF2A9 /* FaceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		3E579CDC153139C2002AF2A9 /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		3E579CDD153139C2002AF2A9 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		3E579CE015314AB1002AF2A9 /* RotableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotableViewController.h; sourceTree = "<group>"; };
+		3E579CE115314AB1002AF2A9 /* RotableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				3E579CCC15313788002AF2A9 /* PsychologistAppDelegate.h */,
 				3E579CCD15313788002AF2A9 /* PsychologistAppDelegate.m */,
 				3E579CCF15313788002AF2A9 /* MainStoryboard.storyboard */,
+				3E579CE015314AB1002AF2A9 /* RotableViewController.h */,
+				3E579CE115314AB1002AF2A9 /* RotableViewController.m */,
 				3E579CDA153139B2002AF2A9 /* FaceView.h */,
 				3E579CDB153139B2002AF2A9 /* FaceView.m */,
 				3E579CDC153139C2002AF2A9 /* HappinessViewController.h */,
@@ -176,6 +181,7 @@
 				3E579CD415313788002AF2A9 /* PsychologistViewController.m in Sources */,
 				3E579CDE15313F8D002AF2A9 /* HappinessViewController.m in Sources */,
 				3E579CDF15313F93002AF2A9 /* FaceView.m in Sources */,
+				3E579CE215314AB1002AF2A9 /* RotableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
