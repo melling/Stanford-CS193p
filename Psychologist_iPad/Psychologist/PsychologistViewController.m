@@ -23,6 +23,7 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
+    NSLog(@"segue: %@", segue.identifier);
     if ([segue.identifier isEqualToString:@"ShowDiagnosis"]) {
         // segue.destinationViewController is of type id
         // embed in Navigation Controller @ 58m
